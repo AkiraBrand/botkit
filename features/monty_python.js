@@ -11,7 +11,7 @@ module.exports = function(controller) {
   //
   convo.say('Stop! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.');
 
-// ask a question, store the response in 'name'
+// ask a question, store the response in 'name' 
 convo.ask('What is your name?', async(response, convo, bot) => {
     console.log(`user name is ${ response }`);
     // do something?
